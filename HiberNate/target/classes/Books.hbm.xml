@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+        "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<hibernate-mapping xmlns="http://www.hibernate.org/xsd/hibernate-mapping">
+
+    <class name="ru.sapteh.model.Books" table="table_books">
+        <id name="id" column="id_books"/>
+        <property name="name" column="Name_books"/>
+        <property name="autor" column="Autor"/>
+        <property name="publisher" column="Publisher"/>
+    </class>
+</hibernate-mapping>
